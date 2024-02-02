@@ -110,8 +110,23 @@ main{
   background-color: #a5c4dc;
 }
 .item3{
+  color: #552200;
+  background-color: #fdd8f7;
   flex-direction: column;
 }
+.item4{
+  background-color: #d0d84f;
+  color:  #1e3932;
+}
+.item5{
+  background-color: #1e3932;
+  color: #ffffff;
+}
+.item6{
+background-color: #006241;
+color: #ffffff;
+}
+
 .text{
   display: flex;
   justify-content: center;
