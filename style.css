@@ -33,6 +33,7 @@ img{
   font-size: 1rem;
   font-weight: 700;
   letter-spacing: 0.1em;
+  
 }
 li{
   list-style: none;
@@ -87,6 +88,7 @@ main{
   align-items: center;
   flex-direction: column;
   gap: 2em;
+  border-bottom: 3px solid #d9d9d9ef;
 }
 .content-element{
   display: flex;
@@ -123,32 +125,47 @@ main{
   color: #ffffff;
 }
 .item6{
-background-color: #006241;
-color: #ffffff;
+  background-color: #006241;
+  color: #ffffff;
 }
-
 .text{
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   gap: 2em;
-  padding: 2.3rem;
+  padding: 2.2rem;
   text-align: center;
 }
 .rich-text{
   font-size: 3rem;
   letter-spacing: 2px;
 }
-.fo-si-24{
-  font-size: 24px;
-}
-.fo-si-19{
-font-size: 19px;
-}
 .sub-text{
   font-size: 1.4rem;
-  font-weight: 100;
 }
+.fo-si-24{
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.fo-si-19{
+  font-size: 19px;
+  line-height: 1.75;
+}
+.sub-text > span{
+  display: flex;
+  flex-direction: column;
+}
+.last{
+  width: 50%;
+  text-align: center;
+  padding: 1rem;
+}
+.elements-text{
+  font-size: 14px;
+  line-height: 1.8;
+}
+
 
 
