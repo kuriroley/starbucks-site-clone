@@ -5,14 +5,19 @@ body{
   margin: 0;
   padding: 0;
   height: 100%;
+  font-size: 15px;
+  text-align: center;
 }
-
 nav{
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1.50em;
-  border-bottom: 1px solid black;
+  border-bottom: 3px solid #d9d9d9ef;
+}
+img{
+  max-width: 100%;
+  height: auto;
 }
 .sb-logo{
   width: 8%;
@@ -34,11 +39,10 @@ li{
 }
 a{
   text-decoration: none;
-  color: black;
+  color: inherit;
   display: flex;
   align-items: center;
   gap: 1em;
-  font-weight: 600;
 }
 .right{
   gap: 4em;
@@ -50,12 +54,40 @@ a{
   gap: 1.5em;
 }
 .button{
+  display: inline-block;
+  font-family: inherit;
   font-size: 0.9rem;
   border-radius: 50px;
-  /* border-style: solid; */
   border: solid 1px;
-  padding: 0.1em 1em;
-  font-weight: 600;
+  padding: 0.5em 0.9em;
+  font-weight: 500;
   line-height: 1.2;
   text-align: center;
 }
+.sign{
+  background-color: white;
+}
+.join{
+  background-color: black;
+  color: white;
+}
+.main-content{
+  margin-top: 2em;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+.elements{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.prod-pic{
+  
+}
+.elements-item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
