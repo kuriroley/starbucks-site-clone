@@ -4,4 +4,58 @@ body{
   font-family: 'SoDo Sans Semibold',sans-serif;
   margin: 0;
   padding: 0;
+  height: 100%;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.50em;
+  border-bottom: 1px solid black;
+}
+.sb-logo{
+  width: 8%;
+}
+.navi{
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+.menu{
+  display: flex;
+  gap: 1rem;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: black;
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  font-weight: 600;
+}
+.right{
+  gap: 4em;
+}
+.elements{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5em;
+}
+.button{
+  font-size: 0.9rem;
+  border-radius: 50px;
+  /* border-style: solid; */
+  border: solid 1px;
+  padding: 0.1em 1em;
+  font-weight: 600;
+  line-height: 1.2;
+  text-align: center;
 }
