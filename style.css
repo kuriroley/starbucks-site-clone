@@ -150,8 +150,10 @@ main{
   letter-spacing: 1px;
 }
 .fo-si-19{
+  text-align: center;
   font-size: 19px;
   line-height: 1.75;
+  letter-spacing: 0.1rem;
 }
 .sub-text > span{
   display: flex;
@@ -165,6 +167,21 @@ main{
 .elements-text{
   font-size: 14px;
   line-height: 1.8;
+}
+.footer-main{
+  display: flex;
+  padding: 3rem;
+}
+.footer-list{
+  display: flex;
+  justify-content: flex-start;
+  text-align: start;
+  flex-direction: column;
+  gap: 2rem;
+}
+.footer-main li{
+  font-size: 0.9rem;
+  color: gray;
 }
 
 
