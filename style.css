@@ -86,6 +86,7 @@ main{
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  gap: 2em;
 }
 .content-element{
   display: flex;
@@ -105,18 +106,30 @@ main{
   color: #1e3932;
   background-color: #cfd84d;
 }
+.item2{
+  background-color: #a5c4dc;
+}
+.item3{
+  flex-direction: column;
+}
 .text{
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   gap: 2em;
-  padding: 2.40rem;
+  padding: 2.3rem;
   text-align: center;
 }
 .rich-text{
   font-size: 3rem;
   letter-spacing: 2px;
+}
+.fo-si-24{
+  font-size: 24px;
+}
+.fo-si-19{
+font-size: 19px;
 }
 .sub-text{
   font-size: 1.4rem;
