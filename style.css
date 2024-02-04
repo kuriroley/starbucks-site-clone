@@ -96,7 +96,7 @@ main{
   flex-direction: column;
   width: 100%;
   max-width: 1440px;
-  margin: 0;
+  margin: auto;
   gap: 2em;
   border-bottom: 3px solid #d9d9d9ef;
 }

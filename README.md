@@ -6,7 +6,7 @@ Currently aiming for a desktop clone.
 
 ## Points
 * As of feb 04, the main site has been completed.
-* The site is not currently responsive for mobiles and for ultra wide screen resolutions
+* The site is not currently responsive for mobiles
 
 ## What to consider
 * Learn more about responsiveness
