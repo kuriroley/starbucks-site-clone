@@ -7,6 +7,7 @@ body{
   height: 100%;
   font-size: 15px;
   text-align: center;
+  
 }
 nav{
   display: flex;
@@ -170,7 +171,9 @@ main{
 }
 .footer-main{
   display: flex;
+  flex-direction: column;
   padding: 3rem;
+  gap: 2.50rem;
 }
 .footer-list{
   display: flex;
@@ -183,6 +186,37 @@ main{
   font-size: 0.9rem;
   color: gray;
 }
+.footer-elements{
+  display: flex; 
+}
+.sb-bar{
+  color: #e5e5e5;
+  margin: 0;
+  padding: 0;
+}
+.footer-icon{
+  display: flex;
+  flex-direction: row;
+  gap: 1.50em;
+}
+.footer-terms{
+  display: flex;
+  gap: 3em;
+}
+.footer-terms li{
+  font-size: 1.2em;
+  color: black;
+  font-weight: 400;
+
+}
+.footer-terms span{
+  color: #6b6b6b;
+}
+.copy{
+  text-align: start;
+  color: #6b6b6b;
+}
+
 
 
 
