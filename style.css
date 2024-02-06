@@ -206,7 +206,11 @@ main{
 .footer-icon{
   display: flex;
   flex-direction: row;
-  gap: 1.50em;
+  gap: 0.4em;
+}
+.footer-icon li:hover{
+ color: black;
+ 
 }
 .footer-terms{
   display: flex;
